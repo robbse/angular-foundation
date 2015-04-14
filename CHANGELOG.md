@@ -1,8 +1,10 @@
 <a name="v0.6.0"></a>
-# v0.6.0 (unreleased)
+# v0.6.0 (2015-04-13)
 ## Features
 * **dropdownToggle**
   - Add 'expanded' class when toggled
+* **modal**
+  - Add `controllerAs` option ([#176](https://github.com/pineconellc/angular-foundation/pull/176))
 
 ## Bug Fixes
 * **modal**
@@ -12,6 +14,7 @@
   - Prevents a SecurityError from being raised when accessing localStorage
 * **topbar**
   - Fix event unbinding
+  - Fix sticky topbar when page is refreshed. ([#213](https://github.com/pineconellc/angular-foundation/issues/213))
 
 <a name="v0.5.1"></a>
 # v0.5.1 (2014-11-29)
